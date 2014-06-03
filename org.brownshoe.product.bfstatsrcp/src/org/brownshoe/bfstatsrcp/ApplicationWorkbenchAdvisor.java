@@ -1,4 +1,4 @@
-package bfstatsrcp;
+package org.brownshoe.bfstatsrcp;
 
 import org.eclipse.ui.application.IWorkbenchWindowConfigurer;
 import org.eclipse.ui.application.WorkbenchAdvisor;

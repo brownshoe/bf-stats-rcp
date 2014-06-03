@@ -1,4 +1,4 @@
-package bfstatsrcp;
+package org.brownshoe.bfstatsrcp;
 
 import java.util.ArrayList;
 

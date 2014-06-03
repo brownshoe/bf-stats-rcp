@@ -1,4 +1,4 @@
-package bfstatsrcp;
+package org.brownshoe.bfstatsrcp;
 
 import org.eclipse.jface.action.Action;
 import org.eclipse.jface.action.GroupMarker;

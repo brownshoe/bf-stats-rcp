@@ -7,7 +7,7 @@
          point="org.eclipse.core.runtime.applications">
       <application>
          <run
-               class="bfstatsrcp.Application">
+               class="org.brownshoe.bfstatsrcp.Application">
          </run>
       </application>
    </extension>
@@ -15,7 +15,7 @@
          point="org.eclipse.ui.perspectives">
       <perspective
             name="RCP Perspective"
-            class="bfstatsrcp.Perspective"
+            class="org.brownshoe.bfstatsrcp.Perspective"
             id="BFStatsRCP.perspective">
       </perspective>
    </extension>
@@ -25,14 +25,14 @@
             name="Player Stats"
             allowMultiple="true"
             icon="icons/sample2.gif"
-            class="bfstatsrcp.View"
+            class="org.brownshoe.bfstatsrcp.View"
             id="BFStatsRCP.view">
       </view>
       <view
             name="Shazam!"
             allowMultiple="true"
             icon="icons/sample3.gif"
-            class="bfstatsrcp.NavigationView"
+            class="org.brownshoe.bfstatsrcp.NavigationView"
             id="BFStatsRCP.navigationView">
       </view>
    </extension>

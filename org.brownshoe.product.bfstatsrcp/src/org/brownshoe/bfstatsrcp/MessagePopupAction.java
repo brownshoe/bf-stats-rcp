@@ -1,4 +1,4 @@
-package bfstatsrcp;
+package org.brownshoe.bfstatsrcp;
 
 import org.eclipse.jface.action.Action;
 import org.eclipse.jface.dialogs.MessageDialog;
@@ -16,7 +16,7 @@ public class MessagePopupAction extends Action {
         setId(ICommandIds.CMD_OPEN_MESSAGE);
         // Associate the action with a pre-defined command, to allow key bindings.
         setActionDefinitionId(ICommandIds.CMD_OPEN_MESSAGE);
-        setImageDescriptor(bfstatsrcp.Activator.getImageDescriptor("/icons/sample3.gif"));
+        setImageDescriptor(org.brownshoe.bfstatsrcp.Activator.getImageDescriptor("/icons/sample3.gif"));
     }
 
     public void run() {
